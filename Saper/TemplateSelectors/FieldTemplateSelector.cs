@@ -1,0 +1,44 @@
+﻿using Saper.Data.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+
+namespace Saper.TemplateSelectors
+{
+    public class FieldTemplateSelector : DataTemplateSelector
+    {
+        public DataTemplate Default { get; set; }
+        public DataTemplate Empty { get; set; }
+        public DataTemplate Number { get; set; }
+        public DataTemplate Mine { get; set; }
+        public DataTemplate Coverd { get; set; }
+        public DataTemplate Ask { get; set; }
+        public override DataTemplate SelectTemplate(object item, DependencyObject container)
+        {
+            if (item is Field field)
+            {
+                switch (field.State)
+                {
+                    case Data.Enums.FieldState.Defalut:
+                        return Default;
+                    case Data.Enums.FieldState.Showed:
+                        if (field.Value > 0)
+                            return Number;
+                        else if (field.Value == 0)
+                            return Empty;
+                        else
+                            return Mine;
+                    case Data.Enums.FieldState.Coverd:
+                        return Coverd;
+                    case Data.Enums.FieldState.Ask:
+                        return Ask;
+                }
+            }
+            return Default;
+        }
+    }
+}
