@@ -1,0 +1,16 @@
+E:\Prywatne projekty\Saper\Saper.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Prywatne projekty\Saper\Saper.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Prywatne projekty\Saper\Saper.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Prywatne projekty\Saper\Saper.Tests\bin\Debug\Saper.Tests.dll
+E:\Prywatne projekty\Saper\Saper.Tests\bin\Debug\Saper.Tests.pdb
+E:\Prywatne projekty\Saper\Saper.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+E:\Prywatne projekty\Saper\Saper.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+E:\Prywatne projekty\Saper\Saper.Tests\bin\Debug\Saper.Data.dll
+E:\Prywatne projekty\Saper\Saper.Tests\bin\Debug\Saper.Data.pdb
+E:\Prywatne projekty\Saper\Saper.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+E:\Prywatne projekty\Saper\Saper.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+E:\Prywatne projekty\Saper\Saper.Tests\obj\Debug\Saper.Tests.csprojAssemblyReference.cache
+E:\Prywatne projekty\Saper\Saper.Tests\obj\Debug\Saper.Tests.csproj.CoreCompileInputs.cache
+E:\Prywatne projekty\Saper\Saper.Tests\obj\Debug\Saper.Tests.csproj.CopyComplete
+E:\Prywatne projekty\Saper\Saper.Tests\obj\Debug\Saper.Tests.dll
+E:\Prywatne projekty\Saper\Saper.Tests\obj\Debug\Saper.Tests.pdb
