@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saper.Data", "Saper.Data\Sa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saper", "Saper\Saper.csproj", "{D0FC7D93-387D-41AD-9B94-B26D4754B8EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saper.Tests", "Saper.Tests\Saper.Tests.csproj", "{131D9CC9-6140-4F43-A623-BA1CB4700851}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D0FC7D93-387D-41AD-9B94-B26D4754B8EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0FC7D93-387D-41AD-9B94-B26D4754B8EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0FC7D93-387D-41AD-9B94-B26D4754B8EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{131D9CC9-6140-4F43-A623-BA1CB4700851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{131D9CC9-6140-4F43-A623-BA1CB4700851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{131D9CC9-6140-4F43-A623-BA1CB4700851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{131D9CC9-6140-4F43-A623-BA1CB4700851}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
