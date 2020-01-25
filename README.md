@@ -1,5 +1,8 @@
 # Saper
 
+<b>UPDATE</>
+  Po uruchomieniu projektu prośba o zmianę projektu startowego z SAPER.DATA na SAPER, w przeciwnym razie projekt nie wystartuje
+
 Projekt semestralny na przedmiot Projektowanie Obiektowe o nazwie "Saper"
 Założenia projektu:
 - podstawowym założeniem projektu jest stworzenie aplikacji posiłkując się jezykiem C# która w założeniu będzie imitacją popularnej gry Saper
@@ -17,4 +20,8 @@ Założenia projektu:
 
 
 Podział obowiązków i udziału w projekcie:
-Procentowy udział w projekcie zostanie wyliczony po jego sfinalizowaniu. Obowiązki będą klarowały się w trakcie powstawania projektu - uzupełniony po 
+Procentowy udział w projekcie zostanie wyliczony po jego sfinalizowaniu. 
+Obowiązki:
+
+Pajor - Frontend, wizualna strona programu, a także przypisanie wartości pól
+Prokop - logika gry i prypisywanie wartości pól
