@@ -1,6 +1,6 @@
 # Saper
 
-<b>UPDATE</>
+<b>UPDATE</b>
   Po uruchomieniu projektu prośba o zmianę projektu startowego z SAPER.DATA na SAPER, w przeciwnym razie projekt nie wystartuje
 
 Projekt semestralny na przedmiot Projektowanie Obiektowe o nazwie "Saper"
@@ -23,5 +23,5 @@ Podział obowiązków i udziału w projekcie:
 Procentowy udział w projekcie zostanie wyliczony po jego sfinalizowaniu. 
 Obowiązki:
 
-Pajor - Frontend, wizualna strona programu, a także przypisanie wartości pól
-Prokop - logika gry i prypisywanie wartości pól
+- Pajor - Frontend, wizualna strona programu, a także przypisanie wartości pól
+- Prokop - logika gry i prypisywanie wartości pól
