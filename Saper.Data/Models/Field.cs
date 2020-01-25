@@ -8,15 +8,32 @@ using System.Threading.Tasks;
 
 namespace Saper.Data.Models
 {
+    /// <summary>
+    /// Pole planszy
+    /// </summary>
     public class Field : INotifyPropertyChanged
     {
+        /// <summary>
+        /// Konstruktor
+        /// </summary>
+        /// <param name="x">Współrzędne pola</param>
+        /// <param name="y">Współrzędne pola</param>
         public Field(int x, int y)
         {
             X = x;
             Y = y;
         }
+        /// <summary>
+        /// Współrzędna X
+        /// </summary>
         public int X { get; }
+        /// <summary>
+        /// Współrzędna Y
+        /// </summary>
         public int Y { get; }
+        /// <summary>
+        /// Stan pola
+        /// </summary>
         public FieldState State
         {
             get { return _State; }
@@ -27,6 +44,9 @@ namespace Saper.Data.Models
             }
         }
         private FieldState _State;
+        /// <summary>
+        /// Wartość pola
+        /// </summary>
         public int Value
         {
             get { return _Value; }
@@ -38,7 +58,7 @@ namespace Saper.Data.Models
         }
         private int _Value;
         /// <summary>
-        /// Comment
+        /// Tekst pola
         /// </summary>
         public string Text
         {

@@ -44,16 +44,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enums\FieldState.cs" />
-    <Compile Include="Enums\GameMode.cs" />
+    <Compile Include="Logics\BoardLogic.cs" />
+    <Compile Include="Logics\MineException.cs" />
     <Compile Include="Models\Board.cs" />
-    <Compile Include="Models\BoardItem.cs" />
     <Compile Include="Models\Command.cs" />
+    <Compile Include="Models\Field.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="ViewModels\GameViewModel.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Logics\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

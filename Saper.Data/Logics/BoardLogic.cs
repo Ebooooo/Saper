@@ -7,8 +7,17 @@ using System.Threading.Tasks;
 
 namespace Saper.Data.Logics
 {
+    /// <summary>
+    /// Klasa logiki gry Saper
+    /// </summary>
     public class BoardLogic
     {
+        /// <summary>
+        /// Metoda wypełniająca planszę
+        /// </summary>
+        /// <param name="board">Plansza</param>
+        /// <param name="x">Punkt wypełnienia, bez miny</param>
+        /// <param name="y">Punkt wypełnienia, bez miny</param>
         public void Fill(Board board, int x, int y)
         {
             var random = new Random();
@@ -30,31 +39,58 @@ namespace Saper.Data.Logics
             }
             board.IsEmpty = false;
         }
-        public bool Show(Board board, int x, int y)
+        /// <summary>
+        /// Metoda odkrywająca pole
+        /// </summary>
+        /// <param name="board">Plansza</param>
+        /// <param name="x">Punkt odkrycia</param>
+        /// <param name="y">Punkt odkrycia</param>
+        public void Show(Board board, int x, int y)
         {
             try
             {
                 if (board[x, y].Value == -1)
-                    return false;
+                {
+                    board[x, y].State = Enums.FieldState.Showed;
+                    throw new MineException();
+                }
                 if (board[x, y].Value > 0)
-                    return true;
+                {
+                    board[x, y].State = Enums.FieldState.Showed;
+                    board.ShowedFileds++;
+                }
                 foreach (var item in board.GetEnvironment(x, y))
                 {
                     if (item.State == Enums.FieldState.Defalut)
                     {
+                        board.ShowedFileds++;
                         item.State = Enums.FieldState.Showed;
                         if (item.Value == 0)
                             Show(board, item.X, item.Y);
                     }
                     item.Text = item.Value.ToString();
                 }
-                return true;
             }
             finally
             {
-                board[x,y].Text = board[x, y].Value.ToString();
+                board[x, y].Text = board[x, y].Value.ToString();
             }
         }
+        /// <summary>
+        /// Metoda sprawdzająca wygraną
+        /// </summary>
+        /// <param name="board">Plansza</param>
+        /// <returns>Czy gra jest wygrana</returns>
+        public bool CheckWin(Board board)
+        {
+            if (board.ShowedFileds + board.Mines == board.Fields.Length)
+                return true;
+            return false;
+        }
+        /// <summary>
+        /// Metoda zmieniająca stan pola
+        /// </summary>
+        /// <param name="field">Pole planszy</param>
         public void ChangeState(Field field)
         {
             switch (field.State)

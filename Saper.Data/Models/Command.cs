@@ -3,13 +3,15 @@ using System.Windows.Input;
 
 namespace Saper.Data.Models
 {
+    /// <summary>
+    /// Klasa odpowiedzialna za wywołanie komendy
+    /// </summary>
     public class Command : ICommand
     {
         #region private fields
         private readonly Action<object> execute;
         private readonly Func<bool> canExecute;
         #endregion
-
         public event EventHandler CanExecuteChanged
         {
             add
@@ -53,7 +55,10 @@ namespace Saper.Data.Models
         }
 
     }
-
+    /// <summary>
+    /// Generyczma klasa odpowiedzialna za wywołanie komendy
+    /// </summary>
+    /// <typeparam name="T">Typ parametru komendy</typeparam>
     public class Command<T> : ICommand
     {
         #region private fields

@@ -19,3 +19,45 @@ E:\Prywatne projekty\Saper\Saper\obj\Debug\Saper.csproj.CoreCompileInputs.cache
 E:\Prywatne projekty\Saper\Saper\obj\Debug\Saper.csproj.CopyComplete
 E:\Prywatne projekty\Saper\Saper\obj\Debug\Saper.exe
 E:\Prywatne projekty\Saper\Saper\obj\Debug\Saper.pdb
+D:\Users\mateusz.prokop\Downloads\Saper\Saper\Saper\bin\Debug\Saper.exe.config
+D:\Users\mateusz.prokop\Downloads\Saper\Saper\Saper\bin\Debug\Saper.exe
+D:\Users\mateusz.prokop\Downloads\Saper\Saper\Saper\bin\Debug\Saper.pdb
+D:\Users\mateusz.prokop\Downloads\Saper\Saper\Saper\bin\Debug\Saper.Data.dll
+D:\Users\mateusz.prokop\Downloads\Saper\Saper\Saper\bin\Debug\Saper.Data.pdb
+D:\Users\mateusz.prokop\Downloads\Saper\Saper\Saper\obj\Debug\Saper.csprojAssemblyReference.cache
+D:\Users\mateusz.prokop\Downloads\Saper\Saper\Saper\obj\Debug\MainWindow.g.cs
+D:\Users\mateusz.prokop\Downloads\Saper\Saper\Saper\obj\Debug\Views\GameView.g.cs
+D:\Users\mateusz.prokop\Downloads\Saper\Saper\Saper\obj\Debug\App.g.cs
+D:\Users\mateusz.prokop\Downloads\Saper\Saper\Saper\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Users\mateusz.prokop\Downloads\Saper\Saper\Saper\obj\Debug\Saper_MarkupCompile.cache
+D:\Users\mateusz.prokop\Downloads\Saper\Saper\Saper\obj\Debug\Saper_MarkupCompile.lref
+D:\Users\mateusz.prokop\Downloads\Saper\Saper\Saper\obj\Debug\MainWindow.baml
+D:\Users\mateusz.prokop\Downloads\Saper\Saper\Saper\obj\Debug\Views\GameView.baml
+D:\Users\mateusz.prokop\Downloads\Saper\Saper\Saper\obj\Debug\Saper.g.resources
+D:\Users\mateusz.prokop\Downloads\Saper\Saper\Saper\obj\Debug\Saper.Properties.Resources.resources
+D:\Users\mateusz.prokop\Downloads\Saper\Saper\Saper\obj\Debug\Saper.csproj.GenerateResource.cache
+D:\Users\mateusz.prokop\Downloads\Saper\Saper\Saper\obj\Debug\Saper.csproj.CoreCompileInputs.cache
+D:\Users\mateusz.prokop\Downloads\Saper\Saper\Saper\obj\Debug\Saper.csproj.CopyComplete
+D:\Users\mateusz.prokop\Downloads\Saper\Saper\Saper\obj\Debug\Saper.exe
+D:\Users\mateusz.prokop\Downloads\Saper\Saper\Saper\obj\Debug\Saper.pdb
+D:\Users\mateusz.prokop\Source\Repos\Ebooooo\Saper\Saper\bin\Debug\Saper.exe.config
+D:\Users\mateusz.prokop\Source\Repos\Ebooooo\Saper\Saper\bin\Debug\Saper.exe
+D:\Users\mateusz.prokop\Source\Repos\Ebooooo\Saper\Saper\bin\Debug\Saper.pdb
+D:\Users\mateusz.prokop\Source\Repos\Ebooooo\Saper\Saper\bin\Debug\Saper.Data.dll
+D:\Users\mateusz.prokop\Source\Repos\Ebooooo\Saper\Saper\bin\Debug\Saper.Data.pdb
+D:\Users\mateusz.prokop\Source\Repos\Ebooooo\Saper\Saper\obj\Debug\Saper.csprojAssemblyReference.cache
+D:\Users\mateusz.prokop\Source\Repos\Ebooooo\Saper\Saper\obj\Debug\MainWindow.g.cs
+D:\Users\mateusz.prokop\Source\Repos\Ebooooo\Saper\Saper\obj\Debug\Views\GameView.g.cs
+D:\Users\mateusz.prokop\Source\Repos\Ebooooo\Saper\Saper\obj\Debug\App.g.cs
+D:\Users\mateusz.prokop\Source\Repos\Ebooooo\Saper\Saper\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Users\mateusz.prokop\Source\Repos\Ebooooo\Saper\Saper\obj\Debug\Saper_MarkupCompile.cache
+D:\Users\mateusz.prokop\Source\Repos\Ebooooo\Saper\Saper\obj\Debug\Saper_MarkupCompile.lref
+D:\Users\mateusz.prokop\Source\Repos\Ebooooo\Saper\Saper\obj\Debug\MainWindow.baml
+D:\Users\mateusz.prokop\Source\Repos\Ebooooo\Saper\Saper\obj\Debug\Views\GameView.baml
+D:\Users\mateusz.prokop\Source\Repos\Ebooooo\Saper\Saper\obj\Debug\Saper.g.resources
+D:\Users\mateusz.prokop\Source\Repos\Ebooooo\Saper\Saper\obj\Debug\Saper.Properties.Resources.resources
+D:\Users\mateusz.prokop\Source\Repos\Ebooooo\Saper\Saper\obj\Debug\Saper.csproj.GenerateResource.cache
+D:\Users\mateusz.prokop\Source\Repos\Ebooooo\Saper\Saper\obj\Debug\Saper.csproj.CoreCompileInputs.cache
+D:\Users\mateusz.prokop\Source\Repos\Ebooooo\Saper\Saper\obj\Debug\Saper.csproj.CopyComplete
+D:\Users\mateusz.prokop\Source\Repos\Ebooooo\Saper\Saper\obj\Debug\Saper.exe
+D:\Users\mateusz.prokop\Source\Repos\Ebooooo\Saper\Saper\obj\Debug\Saper.pdb

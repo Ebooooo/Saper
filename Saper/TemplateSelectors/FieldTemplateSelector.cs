@@ -1,4 +1,5 @@
 ﻿using Saper.Data.Models;
+using Saper.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,7 @@ namespace Saper.TemplateSelectors
 {
     public class FieldTemplateSelector : DataTemplateSelector
     {
+        public FieldProxy Proxy { get; set; }
         public DataTemplate Default { get; set; }
         public DataTemplate Empty { get; set; }
         public DataTemplate Number { get; set; }
@@ -19,9 +21,10 @@ namespace Saper.TemplateSelectors
         public DataTemplate Ask { get; set; }
         public override DataTemplate SelectTemplate(object item, DependencyObject container)
         {
-            if (item is Field field)
+            if (item is Data.Enums.FieldState fieldState)
             {
-                switch (field.State)
+                var field = Proxy.Field;
+                switch (fieldState)
                 {
                     case Data.Enums.FieldState.Defalut:
                         return Default;
